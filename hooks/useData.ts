@@ -26,6 +26,7 @@ export function useData() {
     setLoading(true);
     setData([]);
     const newData = await getData(1);
+    setPage(1);
     setData([...newData]);
     setLoading(false);
   }
