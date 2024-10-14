@@ -28,7 +28,7 @@ export default function RootLayout() {
       <Stack>
         <Stack.Screen
           name="index"
-          options={{ headerShown: true, title: "To Dos" }}
+          options={{ headerShown: false, title: "To Dos" }}
         />
         <Stack.Screen name="+not-found" />
       </Stack>
